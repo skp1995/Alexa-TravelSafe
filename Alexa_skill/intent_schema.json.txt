@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "location details",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                     "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "details",
+                    "slots": [],
+                    "samples": [
+                        "is the place safe",
+                        "where am i",
+                        "any idea about the current location",
+                        "current location details",
+                        "tell me details about the current location"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
